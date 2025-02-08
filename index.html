@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> for my dearest</title>
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>hi my wonderful, handsome, intellectual, talented, hardworking, cute, charming, , funny, reliable, loving boyfriend :3</strong>
+                        <p>
+                            IT'S YOUR BIRTHDAY YAY!! YOU'RE GETTING OLDER ANJAYY!!! but it's okay because that just means you're one year closer to reaching your future goals hehehhe. i'm so proud of you for coming this far and for always being the strong boy you are.
+                            thank you for everything we've been through, and i can't wait to celebrate many more birthdays with you!  
+                        <p>      
+                            i love you! 我爱你 ！愛してる ! je t'aime! te quiero ! 사랑해요! احبك 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
